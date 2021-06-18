@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgrnd"
+    tools:context=".f3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:layout_width="170dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/cnn"
+
+                    android:layout_marginRight="22dp"
+
+
+
+                    android:layout_gravity="left"
+                    android:scaleType="fitXY"
+                    android:id="@+id/cnnid"/>
+
+                <ImageButton
+                    android:id="@+id/bbcid"
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+
+
+                    android:layout_gravity="end"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bbc" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/ntdid"
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:layout_gravity="left"
+
+                    android:layout_marginRight="22dp"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ntd"
+                    android:text="Math" />
+
+                <ImageButton
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:src="@drawable/los"
+
+                    android:layout_gravity="right"
+                    android:scaleType="fitXY"
+                    android:text="ICT"
+                    android:id="@+id/losid"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/politicioid"
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:layout_gravity="left"
+
+                    android:layout_marginRight="22dp"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/politico"
+                    android:text="Math" />
+
+                <ImageButton
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:src="@drawable/today"
+
+                    android:layout_gravity="right"
+                    android:scaleType="fitXY"
+                    android:text="ICT"
+                    android:id="@+id/usatodayid"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/abcid"
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:layout_gravity="left"
+
+                    android:layout_marginRight="22dp"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/abc"
+                    android:text="Math" />
+
+                <ImageButton
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:src="@drawable/new_york"
+
+                    android:layout_gravity="right"
+                    android:scaleType="fitXY"
+                    android:text="ICT"
+                    android:id="@+id/nyid"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/wasingid"
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:layout_gravity="left"
+
+                    android:layout_marginRight="22dp"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/wasington"
+                    android:text="Math" />
+
+                <ImageButton
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:src="@drawable/hill"
+
+                    android:layout_gravity="right"
+                    android:scaleType="fitXY"
+                    android:text="ICT"
+                    android:id="@+id/hillid"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgrnd"
+    tools:context=".f2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:layout_width="170dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/dailystar"
+
+                    android:layout_marginRight="22dp"
+
+
+
+                    android:layout_gravity="left"
+                    android:scaleType="fitXY"
+                    android:id="@+id/nn11id"/>
+
+                <ImageButton
+                    android:id="@+id/nn12id"
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+
+
+                    android:layout_gravity="end"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dailyobserver" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/nn21id"
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:layout_gravity="left"
+
+                    android:layout_marginRight="22dp"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dailysun"
+                    android:text="Math" />
+
+                <ImageButton
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:src="@drawable/bangladeshtoday"
+
+                    android:layout_gravity="right"
+                    android:scaleType="fitXY"
+                    android:text="ICT"
+                    android:id="@+id/nn22id"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/nn31id"
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:layout_gravity="left"
+
+                    android:layout_marginRight="22dp"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bdnews24"
+                    android:text="Math" />
+
+                <ImageButton
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:src="@drawable/independent"
+
+                    android:layout_gravity="right"
+                    android:scaleType="fitXY"
+                    android:text="ICT"
+                    android:id="@+id/nn32id"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/nn41id"
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:layout_gravity="left"
+
+                    android:layout_marginRight="22dp"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/newage"
+                    android:text="Math" />
+
+                <ImageButton
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:src="@drawable/dhakattv"
+
+                    android:layout_gravity="right"
+                    android:scaleType="fitXY"
+                    android:text="ICT"
+                    android:id="@+id/nn42id"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/nn51id"
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:layout_gravity="left"
+
+                    android:layout_marginRight="22dp"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/nation"
+                    android:text="Math" />
+
+                <ImageButton
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:src="@drawable/jamunatv"
+
+                    android:layout_gravity="right"
+                    android:scaleType="fitXY"
+                    android:text="ICT"
+                    android:id="@+id/nn52id"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

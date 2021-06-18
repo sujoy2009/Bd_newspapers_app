@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgrnd"
+    tools:context=".f1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:layout_width="170dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/prothom"
+
+                    android:layout_marginRight="22dp"
+
+
+
+                    android:layout_gravity="left"
+                    android:scaleType="fitXY"
+                    android:id="@+id/n11id"/>
+
+                <ImageButton
+                    android:id="@+id/n12id"
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+
+
+                    android:layout_gravity="end"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/kalerkontho" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/n21id"
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:layout_gravity="left"
+
+                    android:layout_marginRight="22dp"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/jaijai"
+                    android:text="Math" />
+
+                <ImageButton
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:src="@drawable/jugan"
+
+                    android:layout_gravity="right"
+                    android:scaleType="fitXY"
+                    android:text="ICT"
+                    android:id="@+id/n22id"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/n31id"
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:layout_gravity="left"
+
+                    android:layout_marginRight="22dp"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/protidin"
+                    android:text="Math" />
+
+                <ImageButton
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:src="@drawable/vorerkagoj"
+
+                    android:layout_gravity="right"
+                    android:scaleType="fitXY"
+                    android:text="ICT"
+                    android:id="@+id/n32id"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/n41id"
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:layout_gravity="left"
+
+                    android:layout_marginRight="22dp"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ittef"
+                    android:text="Math" />
+
+                <ImageButton
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:src="@drawable/amadersomoi"
+
+                    android:layout_gravity="right"
+                    android:scaleType="fitXY"
+                    android:text="ICT"
+                    android:id="@+id/n42id"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/n51id"
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:layout_gravity="left"
+
+                    android:layout_marginRight="22dp"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/jono"
+                    android:text="Math" />
+
+                <ImageButton
+                    android:layout_width="170dp"
+
+                    android:layout_height="130dp"
+                    android:src="@drawable/sonali"
+
+                    android:layout_gravity="right"
+                    android:scaleType="fitXY"
+                    android:text="ICT"
+                    android:id="@+id/n52id"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
